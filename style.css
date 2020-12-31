@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    font-family: "Redressed";
+    font-size: 50px;
+    padding-bottom: 50%;
+   color:white;
+   text-shadow:1px 1px 1px rgb(0, 0, 0); 
+}
+
+p{
+    
+    font-family: "Open Sans Condensed";
+    font-size:30px;
+}
+
+.rectangle {
+    height: 500px;
+    width: 800px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 1px 3px 6px  #155179;
+    position: fixed;
+    left: 29%;
+    top: 20%;
+}
+
+.headerRectangle{
+    height:100px;
+width: 100%;
+    background: rgb(61, 101, 128);
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px  #155179;
+     justify-content: center;
+    align-content: center;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+   top:0;
+
+}
+.scroll{
+   top: 21%;
+  overflow: scroll; 
+  overflow-x: hidden;
+height: 480px;
+width: 780px;
+
+position:fixed;
+left: 30%
+
+
+
+
+}
+
+
+body{
+    background-color: rgb(127, 204, 235);
+}
+
+button{
+    font-family: "Redressed";
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(10, 94, 143);
+    color:aliceblue;
+}
